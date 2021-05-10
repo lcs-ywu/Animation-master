@@ -1,0 +1,48 @@
+{
+  "system" : {
+    "axiom" : "FFX",
+    "rules" : {
+      "X" : [
+        {
+          "text" : "[+M][-M]FF",
+          "odds" : 2
+        },
+        {
+          "text" : "[++M][--M]FF",
+          "odds" : 5
+        },
+        {
+          "text" : "[+++M][---M]FF",
+          "odds" : 4
+        },
+        {
+          "text" : "[++++M][----M]FF",
+          "odds" : 3
+        }
+      ],
+      "F" : [
+        {
+          "text" : "F[-X][--X][+X]F",
+          "odds" : 2
+        }
+      ],
+      "M" : [
+        {
+          "text" : "-X[-F]F[-F]",
+          "odds" : 2
+        },
+        {
+          "text" : "-X[-F]F[--F]",
+          "odds" : 2
+        }
+      ]
+    },
+    "generations" : 4
+  },
+  "length" : 800,
+  "angle" : 35,
+  "initialX" : 250,
+  "initialHeading" : 85,
+  "reduction" : 3,
+  "initialY" : 20
+}

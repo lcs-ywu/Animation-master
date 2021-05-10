@@ -1,0 +1,31 @@
+{
+  "system" : {
+    "axiom" : "XF",
+    "rules" : {
+      "F" : [
+        {
+          "text" : "F[---J][--J][-J][+J]",
+          "odds" : 1
+        }
+      ],
+      "J" : [
+        {
+          "text" : "J[+XJ]XJ[-XJ]",
+          "odds" : 1
+        },
+        {
+          "text" : "J[-XJ]XJ[+XJ][XJ]",
+          "odds" : 5
+        }
+      ]
+    },
+    "generations" : 5
+  },
+  "length" : 16,
+  "angle" : 15.5,
+  "initialX" : 150,
+  "initialHeading" : 90,
+  "reduction" : 1.25,
+  "initialY" : 80
+}
+

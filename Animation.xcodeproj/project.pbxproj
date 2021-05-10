@@ -29,6 +29,16 @@
 		81A9FADB219A151B003E6502 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADA219A151B003E6502 /* Helpers.swift */; };
 		81A9FADD219A156E003E6502 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9FADC219A156E003E6502 /* Color.swift */; };
 		81F935042476B0E000CD75D8 /* Tortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F935032476B0E000CD75D8 /* Tortoise.swift */; };
+		8A889328264933640025CFED /* Predecessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889324264933640025CFED /* Predecessor.swift */; };
+		8A889329264933640025CFED /* Successor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889325264933640025CFED /* Successor.swift */; };
+		8A88932A264933640025CFED /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889326264933640025CFED /* Visualizer.swift */; };
+		8A88932B264933640025CFED /* LindenmayerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889327264933640025CFED /* LindenmayerSystem.swift */; };
+		8A8893302649346A0025CFED /* gordon-basic-branching-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A88932E2649346A0025CFED /* gordon-basic-branching-tree.json */; };
+		8A8893312649346A0025CFED /* scott-berry-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A88932F2649346A0025CFED /* scott-berry-tree.json */; };
+		8AD3FF9926494895003F1882 /* aidan-berry-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3FF9826494895003F1882 /* aidan-berry-bush.json */; };
+		8AD3FF9C264948A4003F1882 /* victoria-bush.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3FF9B264948A4003F1882 /* victoria-bush.json */; };
+		8AD3FF9F264948AA003F1882 /* sihan-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3FF9E264948AA003F1882 /* sihan-tree.json */; };
+		8AD3FFA2264948B2003F1882 /* james-devil-fingers.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3FFA1264948B2003F1882 /* james-devil-fingers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +126,16 @@
 		81DBFC2322E96442005EDE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81DBFC2422E96442005EDE85 /* .tgz */ = {isa = PBXFileReference; lastKnownFileType = text; path = .tgz; sourceTree = "<group>"; };
 		81F935032476B0E000CD75D8 /* Tortoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortoise.swift; sourceTree = "<group>"; };
+		8A889324264933640025CFED /* Predecessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predecessor.swift; sourceTree = "<group>"; };
+		8A889325264933640025CFED /* Successor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Successor.swift; sourceTree = "<group>"; };
+		8A889326264933640025CFED /* Visualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visualizer.swift; sourceTree = "<group>"; };
+		8A889327264933640025CFED /* LindenmayerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LindenmayerSystem.swift; sourceTree = "<group>"; };
+		8A88932E2649346A0025CFED /* gordon-basic-branching-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gordon-basic-branching-tree.json"; sourceTree = "<group>"; };
+		8A88932F2649346A0025CFED /* scott-berry-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scott-berry-tree.json"; sourceTree = "<group>"; };
+		8AD3FF9826494895003F1882 /* aidan-berry-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "aidan-berry-bush.json"; sourceTree = "<group>"; };
+		8AD3FF9B264948A4003F1882 /* victoria-bush.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "victoria-bush.json"; sourceTree = "<group>"; };
+		8AD3FF9E264948AA003F1882 /* sihan-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sihan-tree.json"; sourceTree = "<group>"; };
+		8AD3FFA1264948B2003F1882 /* james-devil-fingers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "james-devil-fingers.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +191,11 @@
 				814ADAFE248EB5E300F80486 /* StaticSketch.swift */,
 				814ADAFC248EB56900F80486 /* EmptySketch.swift */,
 				819F9E6D26415FDC00C7883F /* LindenmayerSystemSketch.swift */,
+				8A889327264933640025CFED /* LindenmayerSystem.swift */,
+				8A889324264933640025CFED /* Predecessor.swift */,
+				8A889325264933640025CFED /* Successor.swift */,
+				8A889326264933640025CFED /* Visualizer.swift */,
+				8A88932D264934340025CFED /* SystemCatalog */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -379,6 +404,19 @@
 			path = img;
 			sourceTree = "<group>";
 		};
+		8A88932D264934340025CFED /* SystemCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				8A88932E2649346A0025CFED /* gordon-basic-branching-tree.json */,
+				8A88932F2649346A0025CFED /* scott-berry-tree.json */,
+				8AD3FF9826494895003F1882 /* aidan-berry-bush.json */,
+				8AD3FF9B264948A4003F1882 /* victoria-bush.json */,
+				8AD3FF9E264948AA003F1882 /* sihan-tree.json */,
+				8AD3FFA1264948B2003F1882 /* james-devil-fingers.json */,
+			);
+			name = SystemCatalog;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -474,7 +512,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD3FF9926494895003F1882 /* aidan-berry-bush.json in Resources */,
+				8A8893312649346A0025CFED /* scott-berry-tree.json in Resources */,
 				81064A0E1C130A10007ED524 /* Assets.xcassets in Resources */,
+				8AD3FF9F264948AA003F1882 /* sihan-tree.json in Resources */,
+				8AD3FFA2264948B2003F1882 /* james-devil-fingers.json in Resources */,
+				8A8893302649346A0025CFED /* gordon-basic-branching-tree.json in Resources */,
+				8AD3FF9C264948A4003F1882 /* victoria-bush.json in Resources */,
 				81064A111C130A10007ED524 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,10 +544,14 @@
 				814ADAF5248EAB6A00F80486 /* TurtleSketch.swift in Sources */,
 				814ADAF9248EB34900F80486 /* BasicSketch.swift in Sources */,
 				814ADAFB248EB45F00F80486 /* AudioInputSketch.swift in Sources */,
+				8A88932A264933640025CFED /* Visualizer.swift in Sources */,
+				8A889329264933640025CFED /* Successor.swift in Sources */,
 				814ADAF1248E9F8200F80486 /* AudioAnalyser.swift in Sources */,
+				8A88932B264933640025CFED /* LindenmayerSystem.swift in Sources */,
 				814ADAF3248E9FDA00F80486 /* Sketchable.swift in Sources */,
 				814ADAFD248EB56900F80486 /* EmptySketch.swift in Sources */,
 				814ADAFF248EB5E300F80486 /* StaticSketch.swift in Sources */,
+				8A889328264933640025CFED /* Predecessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

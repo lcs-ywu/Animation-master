@@ -1,0 +1,88 @@
+{
+  "system" : {
+    "axiom" : "[-F][+F]",
+    "rules" : {
+      "H" : [
+        {
+          "text" : "XXI[-I][+I]",
+          "odds" : 3
+        },
+        {
+          "text" : "XI[--I][+I]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXXI[-I][++I]",
+          "odds" : 3
+        }
+      ],
+      "F" : [
+        {
+          "text" : "X[-G][+G][G]",
+          "odds" : 3
+        },
+        {
+          "text" : "XX[-G][+G][G]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXX[-G][+G][G]",
+          "odds" : 3
+        }
+      ],
+      "I" : [
+        {
+          "text" : "XXJ[-J][+J]",
+          "odds" : 3
+        },
+        {
+          "text" : "XJ[--J][+J]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXXJ[-J][++J]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXX[-XXB][+XB]",
+          "odds" : 1
+        }
+      ],
+      "G" : [
+        {
+          "text" : "XXH[-H][+H]",
+          "odds" : 3
+        },
+        {
+          "text" : "XH[--H][+H]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXXH[-H][++H]",
+          "odds" : 3
+        }
+      ],
+      "J" : [
+        {
+          "text" : "XXX[-XX][+X]",
+          "odds" : 1
+        },
+        {
+          "text" : "XX[-XXB][+XXX]",
+          "odds" : 3
+        },
+        {
+          "text" : "XXXX[-X][++XX]",
+          "odds" : 1
+        }
+      ]
+    },
+    "generations" : 5
+  },
+  "length" : 15,
+  "angle" : 25,
+  "initialX" : 250,
+  "initialHeading" : 90,
+  "reduction" : 1.25,
+  "initialY" : 100
+}
