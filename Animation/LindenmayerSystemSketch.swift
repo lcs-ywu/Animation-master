@@ -17,28 +17,19 @@ class LindenmayerSystemSketch: NSObject, Sketchable {
         // Enable faster rendering
         canvas.highPerformance = true
         
-        // Define the L-system
-        var system = LindenmayerSystem(axiom: "[F]-[F]--[F]-[F]-[F]--[F]-", rules: [
-                       "F": [
-                           Successor(odds: 1, text: "XX[-XG][+XXG]XG"),
-                           Successor(odds: 1, text: "XG[-XXG][+XG]XXXG"),
-                           Successor(odds: 1, text: "XXX[-XXXG][+XXG]XXG"),
-                         ],
-                       "G": [
-                           Successor(odds: 1, text: "XX[-XB][+XXB]XX"),
-                           Successor(odds: 1, text: "X[-XXB][+XB]XXX"),
-                           Successor(odds: 1, text: "XXX[-XXXB][+XXB]X"),
-                         ],
-        ], generations: 2)
-
-        // Visualize the system
-        var visualizedSystem = Visualizer(for: system, on: canvas, length: 20, reduction: 1.1, angle: 45, initialPosition: Point(x: 250, y: 250), initialHeading: 0)
+        var system = Visualizer(fromJSONFile: "scott-berry-tree", drawingOn: canvas)
+        var system1 = Visualizer(fromJSONFile: "james-devil-fingers", drawingOn: canvas)
+        var system2 = Visualizer(fromJSONFile: "aidan-berry-bush", drawingOn: canvas)
+        var system3 = Visualizer(fromJSONFile: "scott-berry-tree", drawingOn: canvas)
+        var system4 = Visualizer(fromJSONFile: "victoria-bush", drawingOn: canvas)
+        var system5 = Visualizer(fromJSONFile: "sihan-tree", drawingOn: canvas)
         
-        // Render the system
-        visualizedSystem.render()
-        
-//        visualizedSystem.printJSONRepresentation()
-        
+        system.render()
+        system1.render()
+        system2.render()
+        system3.render()
+        system4.render()
+        system5.render()
     }
     
     // This function runs repeatedly, forever, to create the animated effect
